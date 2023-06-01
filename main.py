@@ -2,6 +2,8 @@ import time
 
 
 def main():
+    """Выводит на экран информацию о моем отношении к тебе
+    в виде определенной фигуры:)"""
     words = 'ike*You*I*l'
     print('\nHi, sweetheart!\n\n')
     for item in words.split():
@@ -19,7 +21,7 @@ def main():
             letterlist += list_X
         print('\n'.join(letterlist))
         time.sleep(5)
-    print('Have a nice day! 💋\n')
+    print('I’m drawn to you! 💋\n')
 
 
 if __name__ == '__main__':
